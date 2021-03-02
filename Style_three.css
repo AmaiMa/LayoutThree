@@ -1,0 +1,28 @@
+.box{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+
+}
+
+body{
+
+    background-color:rgb(197, 213, 230);
+}
+
+.one{
+
+ flex:auto;
+}
+
+.two{
+
+    flex:auto;
+}
+
+.three{
+
+    flex:auto;
+}
