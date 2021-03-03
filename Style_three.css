@@ -1,0 +1,62 @@
+.box-1{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.box-2 {
+
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;  
+}
+
+.box-1 div, .box-2 div{
+
+
+    border-style:solid;
+    border-width: 1px;
+    border-color: rgb(182, 140, 140);
+    padding: 10px;
+}
+
+.one{
+
+ flex:3;
+ order:2;
+}
+
+.two{
+
+    flex:1;
+    order:1;
+}
+
+.three{
+
+    flex:1;
+    order:3;
+}
+
+.four{
+
+    flex:1;
+    order:1;
+    width:20%;
+}
+
+.five{
+
+    flex:1;
+    order:1;
+    width:20%;
+}
+
+.six{
+
+    flex:1;
+    order:1;
+    width:20%;
+}
